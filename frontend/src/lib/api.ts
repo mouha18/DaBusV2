@@ -1,7 +1,6 @@
 import axios from 'axios'
 
-// Use relative URLs for Vercel deployment - the API routes are in the same deployment
-const API_URL = process.env.NEXT_PUBLIC_API_URL || '/api'
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api'
 
 const api = axios.create({
   baseURL: API_URL,
