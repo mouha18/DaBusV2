@@ -169,7 +169,7 @@ class ExcelService {
           'Statut réservation'
         ],
         data: bookings.map((booking) => ({
-          'ID Réservation': booking.id,
+          'ID Réservation': booking.trip_id,
           'Date création': new Date(booking.created_at).toLocaleString('fr-FR'),
           Client: booking.full_name || 'N/A',
           Email: 'N/A',
@@ -244,7 +244,7 @@ class ExcelService {
           'Statut réservation'
         ],
         data: bookings.map((booking) => ({
-          'ID Réservation': booking.id,
+          'ID Réservation': booking.trip_id,
           'Date création': new Date(booking.created_at).toLocaleString('fr-FR'),
           Client: booking.full_name || 'N/A',
           Email: 'N/A',
