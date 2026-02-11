@@ -10,7 +10,7 @@ export default function Header() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-xl font-bold text-blue-600">
-              DaBus
+              SG BUS SHUTTLE
             </Link>
           </div>
           <nav className="flex items-center space-x-4">

@@ -50,6 +50,9 @@ export interface Payment {
   updated_at: string
 }
 
+// Re-export AuthRequest from middleware
+export { AuthRequest } from '../middlewares/auth'
+
 // API Request/Response types
 export interface RegisterRequest {
   email: string
