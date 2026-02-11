@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express'
 import { authenticate, authorize } from '../middlewares/auth'
-import { supabaseAdmin } from '../../supabase/client'
+import { supabaseAdmin } from '../supabase/client'
 import { AuthRequest } from '../types'
 import { excelService } from '../services/excelService'
 

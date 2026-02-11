@@ -1,5 +1,5 @@
 import { Response } from 'express'
-import { supabaseAdmin } from '../../supabase/client'
+import { supabaseAdmin } from '../supabase/client'
 import { AuthRequest, CreateTripRequest, Trip } from '../types'
 
 export const getTrips = async (req: AuthRequest, res: Response): Promise<void> => {

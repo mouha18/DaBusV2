@@ -1,7 +1,7 @@
 // Admin User Initialization Service
 // Creates an admin user on server startup if it doesn't exist
 
-import { supabaseAdmin } from '../../supabase/client'
+import { supabaseAdmin } from '../supabase/client'
 
 interface AdminConfig {
   email: string

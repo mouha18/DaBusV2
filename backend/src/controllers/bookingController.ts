@@ -1,5 +1,5 @@
 import { Response } from 'express'
-import { supabaseAdmin } from '../../supabase/client'
+import { supabaseAdmin } from '../supabase/client'
 import { AuthRequest, CreateBookingRequest } from '../types'
 import 'dotenv/config';
 

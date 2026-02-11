@@ -1,6 +1,6 @@
 import { Response } from 'express'
 import bcrypt from 'bcryptjs'
-import { supabaseAdmin } from '../../supabase/client'
+import { supabaseAdmin } from '../supabase/client'
 import { AuthRequest, RegisterRequest, LoginRequest, User } from '../types'
 import { generateToken } from '../middlewares/auth'
 
